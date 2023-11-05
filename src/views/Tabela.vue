@@ -49,10 +49,10 @@ const alterarDimensaoTabela = () => {
         <div class="col-span-12">
           <BaseCard>
             <span class="text-2xl mr-2">Linhas</span>
-            <input v-model="editRows" type="number" min="1" class="focus:outline-none border border-gray px-3 py-2 rounded" placeholder="Nome"/>
+            <input data-type="linhas" v-model="editRows" type="number" min="1" class="focus:outline-none border border-gray px-3 py-2 rounded" placeholder="Nome"/>
             <span class="text-2xl ml-4">Colunas</span>
-            <input v-model="editCols" type="number" min="1" class="disabled:bg-gray-300 focus:outline-none border border-gray px-3 mx-3 py-2 rounded" placeholder="Sobrenome"/>
-            <BaseBtn class="mb-3 mr-3 border" :disabled="buttonCondition" :class="buttonCondition ? disableStyle : 'border-info text-info hover:bg-info hover:text-white'"  xl @click="alterarDimensaoTabela">
+            <input data-type="colunas" v-model="editCols" type="number" min="1" class="disabled:bg-gray-300 focus:outline-none border border-gray px-3 mx-3 py-2 rounded" placeholder="Sobrenome"/>
+            <BaseBtn data-type="botaoRedimensionarTabela" class="mb-3 mr-3 border" :disabled="buttonCondition" :class="buttonCondition ? disableStyle : 'border-info text-info hover:bg-info hover:text-white'"  xl @click="alterarDimensaoTabela">
               Atualizar dimensão de tabela
             </BaseBtn>
           </BaseCard>

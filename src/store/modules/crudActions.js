@@ -1,4 +1,3 @@
-// Create a new store instance.
 const crudActions = {
 
   namespaced: true,
@@ -27,8 +26,5 @@ const crudActions = {
     }
   },
 }
-
-// const app = createApp({ /* your root component */ })
-
 
 export default crudActions;

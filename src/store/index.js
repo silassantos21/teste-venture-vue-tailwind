@@ -6,9 +6,9 @@ import cell from './modules/cell'
 
 
 export default  createStore({
-    modules: {
-      largeSidebar,
-      crudActions,
-      cell      
-    }
+  modules: {
+    largeSidebar,
+    crudActions,
+    cell      
+  }
 });

@@ -55,9 +55,9 @@ const peoples = computed(() =>
     <div class="grid grid-cols-12 gap-5">
       <div class="col-span-12">
         <BaseCard>
-          <input v-model="name" type="text" class="focus:outline-none border border-gray px-3 py-2 rounded" placeholder="Nome"/>
-          <input v-model="surName" :disabled="!name" type="text" class="disabled:bg-gray-300 focus:outline-none border border-gray px-3 mx-3 py-2 rounded" placeholder="Sobrenome"/>
-          <BaseBtn class="mb-3 mr-3 border" :disabled="buttonCondition" :class="buttonCondition ? disableStyle : 'border-info text-info hover:bg-info hover:text-white'"  xl @click="adicionar">
+          <input data-type="name" v-model="name" type="text" class="focus:outline-none border border-gray px-3 py-2 rounded" placeholder="Nome"/>
+          <input data-type="surName" v-model="surName" :disabled="!name" type="text" class="disabled:bg-gray-300 focus:outline-none border border-gray px-3 mx-3 py-2 rounded" placeholder="Sobrenome"/>
+          <BaseBtn data-type="botaoAdicionar" class="mb-3 mr-3 border" :disabled="buttonCondition" :class="buttonCondition ? disableStyle : 'border-info text-info hover:bg-info hover:text-white'"  xl @click="adicionar">
             Adicionar
           </BaseBtn>
         </BaseCard>
@@ -68,22 +68,22 @@ const peoples = computed(() =>
           <p v-if="!p.isModeEdit" class="text-base my-4">{{ p.name }}{{ (p.surName ? ', ' : '') }} {{ p.surName }}</p>
           <p v-if="!p.isModeEdit" class="text-base my-4">Identificador: {{ p.id }}</p>
           <div v-if="p.isModeEdit" class="my-5">
-            <input v-model="nameToEdit" type="text" class="mb-2 focus:outline-none border border-gray-300 py-2 rounded" placeholder="Nome"/>
-            <input v-model="surNameToEdit" :disabled="!nameToEdit" type="text" class="focus:outline-none border border-gray-300 py-2 rounded" placeholder="Sobrenome"/>
+            <input data-type="nameToEdit" v-model="nameToEdit" type="text" class="mb-2 focus:outline-none border border-gray-300 py-2 rounded" placeholder="Nome"/>
+            <input data-type="surNameToEdit" v-model="surNameToEdit" :disabled="!nameToEdit" type="text" class="focus:outline-none border border-gray-300 py-2 rounded" placeholder="Sobrenome"/>
           </div>
           <div v-if="p.isModeEdit" class="grid grid-cols-2 gap-4 text-center">
             <BaseBtn sm class="bg-danger text-white rounded-full" @click="modeEditFunction(p.id, false)">
               Cancelar
             </BaseBtn>
-            <BaseBtn sm :disabled="!nameToEdit" class="bg-info text-white rounded-full" @click="alterar(p.id)">
+            <BaseBtn data-type="botaoSalvarAlteracao" sm :disabled="!nameToEdit" class="bg-info text-white rounded-full" @click="alterar(p.id)">
               Salvar
             </BaseBtn>
           </div>
           <div v-if="!p.isModeEdit" class="grid grid-cols-2 gap-4 text-center">
-            <BaseBtn sm class="bg-danger text-white rounded-full" @click="remover(p.id)">
+            <BaseBtn data-type="botaoRemover" sm class="bg-danger text-white rounded-full" @click="remover(p.id)">
               Remover
             </BaseBtn>
-            <BaseBtn sm class="bg-info text-white rounded-full" @click="modeEditFunction(p.id, true)">
+            <BaseBtn data-type="botaoAlterar" sm class="bg-info text-white rounded-full" @click="modeEditFunction(p.id, true)">
               Alterar
             </BaseBtn>
           </div>

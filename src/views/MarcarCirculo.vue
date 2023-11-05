@@ -84,15 +84,15 @@ function playRecarregando() {
             <p class="text-2xl">Tiro ao alvo</p>
           </div>
           <div class="grid grid-cols-2 gap-4 text-center w-full my-5" style="justify-items: center;">
-            <BaseBtn :disabled="index <= 0" sm class="rounded-full w-2/4" :class="index <= 0 ? disableStyle : 'bg-danger text-white'" @click="voltar">
+            <BaseBtn data-type="apagarUltimoCirculo" :disabled="index <= 0" sm class="rounded-full w-2/4" :class="index <= 0 ? disableStyle : 'bg-danger text-white'" @click="voltar">
               <i class="i-Previous text-3xl"></i>
             </BaseBtn>
-            <BaseBtn :disabled="index >= history.length - 1" sm class="rounded-full w-2/4" :class="index >= history.length - 1 ? disableStyle : 'bg-info text-white'" @click="refazer">
+            <BaseBtn data-type="redesnharUltimoCirculoApagado" :disabled="index >= history.length - 1" sm class="rounded-full w-2/4" :class="index >= history.length - 1 ? disableStyle : 'bg-info text-white'" @click="refazer">
               <i class="i-Next1 text-3xl"></i>
             </BaseBtn>
           </div>
           <div style="text-align: -webkit-center;">
-            <svg @click="mark" width="100%" height="130vh" ref="svgRef">
+            <svg data-type="desenharCirculo" @click="mark" width="100%" height="130vh" ref="svgRef">
               <circle
                 v-for="(circle, index) in circles"
                 :key="index"

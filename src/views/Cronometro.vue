@@ -60,12 +60,12 @@ onUnmounted(() => {
             <div class="my-8 grid grid-cols-1 items-center" style="text-align: center; place-items: center;">
               <div class="w-3/4">                
                 <div class="flex flex-col mt-5 space-y-2 p-2 text-left">
-                  Duração de Progresso <input type="range" class="bg-blue-600" v-model="duration" min="1" max="30000">
+                  Duração de Progresso <input type="range" data-type="rangeDuracaoCronometro" class="bg-blue-600" v-model="duration" min="1" max="30000">
                   {{ (duration / 1000).toFixed(1) }} segundos
                 </div>
               </div>
               <div class="w-1/4">
-                <BaseBtn class="mb-3 mr-3 border border-info text-info hover:bg-info hover:text-white" xl @click="reset">
+                <BaseBtn data-type="recomecarCronometro" class="mb-3 mr-3 border border-info text-info hover:bg-info hover:text-white" xl @click="reset">
                   Recomeçar
                 </BaseBtn>
               </div>
