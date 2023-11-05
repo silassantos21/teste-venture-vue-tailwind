@@ -4,7 +4,7 @@
 
 <h3 align="center">Enunciado:</h3>
 
-<p align="center">
+<p align="left">
   1- Crie um repositório novo na sua conta de gihbub
   2- Adicione um commit inicial marcando o horário de início do teste
   3- Configure o seu projeto para utilizar VueJS com Vite e Tailwind
@@ -45,7 +45,7 @@
 
 ### Palavras Chave
 
--   ⚡️ [Vue 3](https://github.com/vuejs/vue-next) & [Vite](https://vitejs.dev)
+-   ⚡️ [Vue 3](https://vuejs.org/) & [Vite](https://vitejs.dev)
 -   [Vue GUIs](https://vuejs.org/examples/)
 -   [Vitest](https://vitest.dev/)
 -   📦 [TailwindCss](https://tailwindcss.com/)
