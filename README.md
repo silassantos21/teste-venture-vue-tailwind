@@ -6,17 +6,17 @@
 
 <p align="left">
   1- Crie um repositório novo na sua conta de gihbub <br>
-  2- Adicione um commit inicial marcando o horário de início do teste
-  3- Configure o seu projeto para utilizar VueJS com Vite e Tailwind
-  4- Crie uma página inicial de apresentação para o seu projeto
+  2- Adicione um commit inicial marcando o horário de início do teste <br>
+  3- Configure o seu projeto para utilizar VueJS com Vite e Tailwind <br>
+  4- Crie uma página inicial de apresentação para o seu projeto <br>
   Importante: Utilize o estilo de API com o Composition API e desenvolva os componentes com Single-File Components
-  5- Crie um menu lateral com sete links, crie mais sete páginas e atribua uma rota para cada uma
-  6- Implemente os sete exemplos de GUIs da documentação do Vue (https://vuejs.org/examples/)  e aplique estilos para os elementos utilizando Tailwind
-  Importante: Cada elemento deve ter sua própria página. Por exemplo, o elemento contador (https://vuejs.org/examples/#counter) deve estar dentro de uma página chamada "Counter" e deve funcionar igual como demonstrado na documentação, porém o layout e a interface da página deve estar estilizada com textos, cores, background, espaçamentos e etc, conforme julgar melhor para demonstrar suas habilidades.
-  7- Implemente testes de componentes para cada uma das páginas
-  Sugestão: Utilizar o Vitest para os testes de componentes
-  8- Adicione um último commit marcando o horário de conclusão do teste
-  9- Coloque o repositório público e envie o link por email para concluir o teste
+  5- Crie um menu lateral com sete links, crie mais sete páginas e atribua uma rota para cada uma <br>
+  6- Implemente os sete exemplos de GUIs da documentação do Vue (https://vuejs.org/examples/)  e aplique estilos para os elementos utilizando Tailwind <br>
+  Importante: Cada elemento deve ter sua própria página. Por exemplo, o elemento contador (https://vuejs.org/examples/#counter) deve estar dentro de uma página chamada "Counter" e deve funcionar igual como demonstrado na documentação, porém o layout e a interface da página deve estar estilizada com textos, cores, background, espaçamentos e etc, conforme julgar melhor para demonstrar suas habilidades. <br>
+  7- Implemente testes de componentes para cada uma das páginas <br>
+  Sugestão: Utilizar o Vitest para os testes de componentes <br>
+  8- Adicione um último commit marcando o horário de conclusão do teste <br>
+  9- Coloque o repositório público e envie o link por email para concluir o teste <br>
 </p>
 
 <p align="center">
