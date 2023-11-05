@@ -1,31 +1,29 @@
 {
-  "name": "vue-project",
-  "version": "0.0.0",
-  "private": true,
+  "name": "teste-venture",
+  "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test:unit": "vitest",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
   },
   "dependencies": {
-    "pinia": "^2.1.7",
-    "vue": "^3.3.4",
-    "vue-router": "^4.2.5"
+      "@headlessui/vue": "^1.7.16",
+      "vue": "^3.3.4",
+      "vue-router": "^4.2.4",
+      "vue3-perfect-scrollbar": "^1.6.1",
+      "vuex": "^4.1.0"
   },
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.3.3",
-    "@vitejs/plugin-vue": "^4.4.0",
-    "@vue/eslint-config-prettier": "^8.0.0",
-    "@vue/test-utils": "^2.4.1",
-    "eslint": "^8.49.0",
-    "eslint-plugin-vue": "^9.17.0",
-    "jsdom": "^22.1.0",
-    "prettier": "^3.0.3",
-    "tailwindcss": "^3.3.5",
-    "vite": "^4.4.11",
-    "vitest": "^0.34.6"
+      "@vitejs/plugin-vue": "^4.3.3",
+      "@vue/compiler-sfc": "^3.3.4",
+      "autoprefixer": "^10.4.15",
+      "eslint": "^8.47.0",
+      "eslint-config-prettier": "^9.0.0",
+      "eslint-plugin-vue": "^9.17.0",
+      "postcss": "^8.4.28",
+      "sass": "^1.66.1",
+      "sass-loader": "^13.3.2",
+      "tailwindcss": "^3.3.3",
+      "vite": "^4.4.9"
   }
 }

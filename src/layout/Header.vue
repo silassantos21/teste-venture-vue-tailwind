@@ -1,110 +1,65 @@
-<template>
-  <div id="allTheNav">
-    <nav id="navigator" class="navbar" :class="{navbaropen: largeSideBar.getSideBarToggleProperties}">
-      <span class="open-slide">
-        <a href="#" @click="largeSideBar.toggleSidebarProperties">
-          <div>
-            <div class="bar" :class="{topopen: largeSideBar.getSideBarToggleProperties}"></div>
-            <div class="bar" :class="{midopen: largeSideBar.getSideBarToggleProperties}"></div>
-            <div class="bar" :class="{botopen: largeSideBar.getSideBarToggleProperties}"></div>
-          </div>
-        </a>
-      </span>
-      <ul class="navbar-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</template>
-
 <script setup>
+import { useStore } from 'vuex'
 
-import { useLargeSideBar } from '../stores/largeSideBar'
+let store = useStore()
 
-const largeSideBar = useLargeSideBar()
+const sideBarToggle = () => {
+    let sidenav = store.state.largeSidebar.sidebarToggleProperties.isSideNavOpen
 
+    if (sidenav == false) {
+        store.commit('largeSidebar/toggleSidebarProperties')
+    } else {
+        store.commit('largeSidebar/toggleSidebarProperties')
+    }
+}
 </script>
 
-<style>
-body{
-  font-family: "Arial", Serif;
-  background-color: #f5f5f5;
-  overflow-x: hidden;
-}
+<template>
+    <div class="header-wrapper flex bg-white justify-between px-4">
+        <div class="flex items-center">
+            <div class="logo flex justify-center">
+                <img src="/images/ventureMinerLogo.png" class="w-[100px]" alt="">
+            </div>
+            <div class="mx-0 sm:mx-3">
+                <button
+                    @click="sideBarToggle"
+                    class="
+                        menu-toggle
+                        cursor-pointer
+                        text-gray-500
+                        align-middle
+                        focus:outline-none
+                    "
+                    type="button"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"
+                        />
+                    </svg>
+                </button>
+            </div>
+            <p class="ml-3">Menu Venture</p>
+        </div>
+    </div>
+</template>
 
-.navbar{
-  background-color: #3b5998;
-  overflow: hidden;
-  height: 63px;
-}
-
-.navbaropen{
-  background-color: #3b5998;
-  overflow: hidden;
-  height: 63px;
-  margin-left: 250px;
-}
-
-.navbar a{
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar ul{
-  margin: 8px 0 0 0;
-  list-style: none;
-}
-
-.navbar a:hover{
-  background-color: #ddd;
-  color: #000;
-}
-
-#main{
-  transition: margin-left 0.3s;
-  padding: 20px;
-  overflow: hidden;
-  width: 100%;
-}
-
-.mainopen{
-  transition: margin-left 0.3s;
-  padding: 20px;
-  overflow: hidden;
-  width: 100%;
-  margin-left: 250px;
-}
-
-nav{
-  transition: margin-left 0.3s;
-}
-
-.bar{
-  display: block;
-  height: 5px;
-  width: 35px;
-  background: #000;
-  margin: 5px auto;
-}
-
-.midopen{
-  width: 0;
-}
-.bar{
-  transition: all .3s ease;
-}
-.topopen{
-  transform: translateY(10px) rotateZ(45deg);
-}
-.botopen{
-  transform: translateY(-10px) rotateZ(-45deg);
+<style lang="scss" scoped>
+.header-wrapper {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 100;
+    box-shadow: 0 1px 15px rgb(0 0 0 / 4%), 0 1px 6px rgb(0 0 0 / 4%);
 }
 </style>
