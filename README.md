@@ -52,11 +52,9 @@
 -   📑 [Vue-Router](./src/routes/index.js)
 
 
-## Installation ⚒️
+## ⚒️ Instalação ⚒️
 
-> We recommend you use yarn
-
-1. Install all packages
+1. Instalar todos pacotes
 
     ```bash
     yarn install [for yarn]
@@ -64,7 +62,7 @@
     # npm install [for npm]
     ```
 
-2. Run development server
+2. Executar servidor de desenvolvimento
 
     ```bash
     yarn dev
@@ -72,42 +70,34 @@
     # npm run dev [for npm]
     ```
 
-3. Generate build files for deployment
+## Executar localmente
 
-    ```bash
-    yarn build [for yarn]
-
-    # npm run build [for npm]
-    ```
-
-## Run Locally
-
-Clone the project
+Clonar o Projeto
 
 ```bash
   git clone https://github.com/silassantos21/teste-venture-vue-tailwind.git
 ```
 
-Go to the project directory
+Ir para o Repositório do projeto
 
 ```bash
   cd teste-venture-vue-tailwind
 ```
 
-Install dependencies
+Instalar dependências
 
 ```bash
-  yarn | npm install
+  yarn ou npm install
 ```
 
-Start the server
+Iniciar o server
 
 ```bash
-  yarn dev | npm run dev
+  yarn dev ou npm run dev
 ```
 
-Run the Unit tests
+Rodar testes unitários
 
 ```bash
-  yarn test:unit | npm run test:unit
+  yarn test:unit ou npm run test:unit
 ```
