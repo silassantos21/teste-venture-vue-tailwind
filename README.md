@@ -24,22 +24,22 @@
     <img width="100%" height="auto" style="border-radius: 10px;" src="./public/images/screenshots/Venture1.png" alt="Contador" >
   <div>
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/images/screenshots/Venture2.png" alt="Conversor de Temperatura" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/images/screenshots/Venture2.PNG" alt="Conversor de Temperatura" >
   <div>
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/images/screenshots/Venture3.png" alt="Reserva de voo" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/images/screenshots/Venture3.PNG" alt="Reserva de voo" >
   <div>
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/images/screenshots/Venture4.png" alt="Cronômetro" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/images/screenshots/Venture4.PNG" alt="Cronômetro" >
   <div>
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/images/screenshots/Venture5.png" alt="Funcionamento CRUD" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/images/screenshots/Venture5.PNG" alt="Funcionamento CRUD" >
   <div>
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/images/screenshots/Venture6.png" alt="Desenho de circulos" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/images/screenshots/Venture6.PNG" alt="Desenho de circulos" >
   <div>
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/images/screenshots/Venture7.png" alt="Cédulas de tabela" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/images/screenshots/Venture7.PNG" alt="Cédulas de tabela" >
   <div>
 </p>
 
