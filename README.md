@@ -21,25 +21,25 @@
 
 <p align="center">
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/Venture1.png" alt="Contador" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/images/Venture1.png" alt="Contador" >
   <div>
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/Venture2.png" alt="Conversor de Temperatura" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/images/Venture2.png" alt="Conversor de Temperatura" >
   <div>
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/Venture3.png" alt="Reserva de voo" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/images/Venture3.png" alt="Reserva de voo" >
   <div>
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/Venture4.png" alt="Cronômetro" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/images/Venture4.png" alt="Cronômetro" >
   <div>
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/Venture5.png" alt="Funcionamento CRUD" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/images/Venture5.png" alt="Funcionamento CRUD" >
   <div>
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/Venture6.png" alt="Desenho de circulos" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/images/Venture6.png" alt="Desenho de circulos" >
   <div>
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/Venture7.png" alt="Cédulas de tabela" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/images/Venture7.png" alt="Cédulas de tabela" >
   <div>
 </p>
 
@@ -59,7 +59,7 @@
 1. Install all packages
 
     ```bash
-    yarn
+    yarn install [for yarn]
 
     # npm install [for npm]
     ```
@@ -85,13 +85,13 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/uilibrary/AatroX-vue
+  git clone https://github.com/silassantos21/teste-venture-vue-tailwind.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd AatroX-vue
+  cd teste-venture-vue-tailwind
 ```
 
 Install dependencies
