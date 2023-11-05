@@ -58,8 +58,7 @@ const alterarDimensaoTabela = () => {
           </BaseCard>
         </div>
         <BaseCard>
-          <!-- {{ cells }} -->
-          <div style="max-width: 83vw; overflow-x: auto;">
+          <div class="overflow-tabela">
             <table>
               <thead>
                 <tr>
@@ -110,5 +109,11 @@ const alterarDimensaoTabela = () => {
     border: 1px solid #ccc;
     height: 1.5em;
     overflow: hidden;
+  }
+
+  .overflow-tabela {
+    max-width: 83vw;
+    max-height: 30vw;
+    overflow: auto;
   }
 </style>
