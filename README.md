@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/assets/images/ventureMinerLogo.png" alt="Teste envolvendo GUIs do guia Vue, pela Venture" width="114" height="114">
+  <img src="./public/ventureMinerLogo.png" alt="Teste envolvendo GUIs do guia Vue, pela Venture" width="114" height="114">
 </p>
 
 <h3 align="center">Enunciado:</h3>
@@ -21,25 +21,25 @@
 
 <p align="center">
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./src/assets/images/screenshots/Venture1.png" alt="Contador" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/Venture1.png" alt="Contador" >
   <div>
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./src/assets/images/screenshots/Venture2.png" alt="Conversor de Temperatura" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/Venture2.png" alt="Conversor de Temperatura" >
   <div>
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./src/assets/images/screenshots/Venture3.png" alt="Reserva de voo" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/Venture3.png" alt="Reserva de voo" >
   <div>
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./src/assets/images/screenshots/Venture4.png" alt="Cronômetro" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/Venture4.png" alt="Cronômetro" >
   <div>
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./src/assets/images/screenshots/Venture5.png" alt="Funcionamento CRUD" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/Venture5.png" alt="Funcionamento CRUD" >
   <div>
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./src/assets/images/screenshots/Venture6.png" alt="Desenho de circulos" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/Venture6.png" alt="Desenho de circulos" >
   <div>
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./src/assets/images/screenshots/Venture7.png" alt="Cédulas de tabela" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/Venture7.png" alt="Cédulas de tabela" >
   <div>
 </p>
 
