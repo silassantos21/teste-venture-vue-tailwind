@@ -21,7 +21,7 @@
 
 <p align="center">
   <div>
-    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/images/Venture1.png" alt="Contador" >
+    <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/images/screenshots/Venture1.png" alt="Contador" >
   <div>
   <div>
     <img width="100%" height="auto" style="border-radius: 10px;" src="./public/screenshots/images/Venture2.png" alt="Conversor de Temperatura" >
