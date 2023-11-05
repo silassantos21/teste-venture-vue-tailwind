@@ -75,7 +75,7 @@
 3. Generate build files for deployment
 
     ```bash
-    yarn build
+    yarn build [for yarn]
 
     # npm run build [for npm]
     ```
@@ -97,11 +97,11 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  yarn
+  yarn or npm install
 ```
 
 Start the server
 
 ```bash
-  yarn dev
+  yarn dev or npm run dev
 ```
