@@ -5,7 +5,7 @@
 <h3 align="center">Enunciado:</h3>
 
 <p align="left">
-  1- Crie um repositório novo na sua conta de gihbub
+  1- Crie um repositório novo na sua conta de gihbub <br>
   2- Adicione um commit inicial marcando o horário de início do teste
   3- Configure o seu projeto para utilizar VueJS com Vite e Tailwind
   4- Crie uma página inicial de apresentação para o seu projeto
