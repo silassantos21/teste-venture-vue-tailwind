@@ -97,17 +97,17 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  yarn | npm install
+  yarn OR npm install
 ```
 
 Start the server
 
 ```bash
-  yarn dev | npm run dev
+  yarn dev OR npm run dev
 ```
 
 Run the Unit tests
 
 ```bash
-  yarn test:unit | npm run test:unit
+  yarn test:unit OR npm run test:unit
 ```
